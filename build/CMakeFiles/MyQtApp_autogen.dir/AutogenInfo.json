@@ -1,16 +1,16 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/my_app_autogen",
-	"CMAKE_BINARY_DIR" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++",
+	"BUILD_DIR" : "D:/2_sem/cours_c++/build/MyQtApp_autogen",
+	"CMAKE_BINARY_DIR" : "D:/2_sem/cours_c++/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/2_sem/cours_c++/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/2_sem/cours_c++",
 	"CMAKE_EXECUTABLE" : "C:/Users/dimov/msys/ucrt64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/CMakeLists.txt",
+		"D:/2_sem/cours_c++/CMakeLists.txt",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in",
-		"D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/CMakeFiles/4.0.0/CMakeSystem.cmake",
+		"D:/2_sem/cours_c++/build/CMakeFiles/4.0.0/CMakeSystem.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
@@ -64,7 +64,7 @@
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/CMakeFiles/4.0.0/CMakeCXXCompiler.cmake",
+		"D:/2_sem/cours_c++/build/CMakeFiles/4.0.0/CMakeCXXCompiler.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -79,7 +79,7 @@
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in",
-		"D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/CMakeFiles/4.0.0/CMakeRCCompiler.cmake",
+		"D:/2_sem/cours_c++/build/CMakeFiles/4.0.0/CMakeRCCompiler.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake",
@@ -98,7 +98,7 @@
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/CMakeFiles/4.0.0/CMakeCXXCompiler.cmake",
+		"D:/2_sem/cours_c++/build/CMakeFiles/4.0.0/CMakeCXXCompiler.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
@@ -397,16 +397,25 @@
 		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake",
 		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
-		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
+		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++",
+	"CMAKE_SOURCE_DIR" : "D:/2_sem/cours_c++",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/my_app_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "my_app_autogen/timestamp",
-	"HEADERS" : [],
+	"DEP_FILE" : "D:/2_sem/cours_c++/build/MyQtApp_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "MyQtApp_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"D:/2_sem/cours_c++/src/mainwindow.h",
+			"MU",
+			"UVLADIE3JM/moc_mainwindow.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/my_app_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/my_app_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/2_sem/cours_c++/build/MyQtApp_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/2_sem/cours_c++/build/MyQtApp_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -464,25 +473,25 @@
 		"-c",
 		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/my_app_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/2_sem/cours_c++/build/MyQtApp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/CMakeFiles/my_app_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Users/dimov/msys/ucrt64/share/qt6/bin/moc.exe",
-	"QT_UIC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "C:/Users/dimov/msys/ucrt64/share/qt6/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
-	"SETTINGS_FILE" : "D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/build/CMakeFiles/my_app_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"D:/2 \u0441\u0435\u043c\u0435\u0441\u0442\u0440/\u043a\u0443\u0440\u0441\u043e\u0432\u0430\u044f \u0441++/src/main.cpp",
-			"Mu",
-			null
-		]
+		[ "D:/2_sem/cours_c++/src/main.cpp", "MU", null ]
 	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0
 }

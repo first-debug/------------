@@ -1,8 +1,8 @@
 # ninja log v6
-8	286	7660087939377753	my_app_autogen/timestamp	b7b69423a9ac046
-8	286	7660087939377753	my_app_autogen/mocs_compilation.cpp	b7b69423a9ac046
-8	286	7660087939377753	D:/2 семестр/курсовая с++/build/my_app_autogen/timestamp	b7b69423a9ac046
-8	286	7660087939377753	D:/2 семестр/курсовая с++/build/my_app_autogen/mocs_compilation.cpp	b7b69423a9ac046
-295	381	7660087940096285	CMakeFiles/my_app.dir/my_app_autogen/mocs_compilation.cpp.obj	d425b19b4965abde
-300	2092	7660087940157627	CMakeFiles/my_app.dir/src/main.cpp.obj	158f7e43b22155e5
-2094	2323	7660087958083788	my_app.exe	c8cbeedd092dde6b
+8	710	7660620910356139	MyQtApp_autogen/timestamp	87f8dfcdfcd89acd
+8	710	7660620910356139	MyQtApp_autogen/mocs_compilation.cpp	87f8dfcdfcd89acd
+8	710	7660620910356139	D:/2_sem/cours_c++/build/MyQtApp_autogen/timestamp	87f8dfcdfcd89acd
+8	710	7660620910356139	D:/2_sem/cours_c++/build/MyQtApp_autogen/mocs_compilation.cpp	87f8dfcdfcd89acd
+716	2532	7660620910973915	CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj	dadfec735bee949
+719	2535	7660620910973915	CMakeFiles/MyQtApp.dir/src/main.cpp.obj	4160b1699ffd257f
+2535	2753	7660620929207872	MyQtApp.exe	a451b8d1d9b2f152

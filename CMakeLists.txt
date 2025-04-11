@@ -1,23 +1,31 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.21)
 project(MyQtApp LANGUAGES CXX)
 
-# Включение автоматической обработки .ui-файлов
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTOMOC ON)
-
-# Настройка Qt
+# Настройка стандарта C++
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_AUTOMOC ON)  # Для обработки сигналов/slots
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Добавление .ui-файла
-qt_add_ui_files(ui_files ui/my_window.ui)
+# Включаем автоматическую обработку Qt
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
 
+# Явно указываем путь к Qt6
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
-include_directories(${Qt6_INCLUDE_DIRS})
 
-# Создание исполняемого файла
-add_executable(${PROJECT_NAME} 
+# Включаем стандартные настройки Qt
+qt_standard_project_setup()
+
+# Создаем исполняемый файл (UI-файл будет обработан автоматически)
+add_executable(${PROJECT_NAME}
     src/main.cpp
-    ${ui_files}
+    src/mainwindow.h
+    src/my_window.ui  # Добавляем UI-файл напрямую
 )
-target_link_libraries(my_app PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)
+
+# Подключаем Qt модули
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Widgets
+)

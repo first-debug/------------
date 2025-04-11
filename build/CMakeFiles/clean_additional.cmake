@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.16)
 
 if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   file(REMOVE_RECURSE
-  "CMakeFiles\\my_app_autogen.dir\\AutogenUsed.txt"
-  "CMakeFiles\\my_app_autogen.dir\\ParseCache.txt"
-  "my_app_autogen"
+  "CMakeFiles\\MyQtApp_autogen.dir\\AutogenUsed.txt"
+  "CMakeFiles\\MyQtApp_autogen.dir\\ParseCache.txt"
+  "MyQtApp_autogen"
   )
 endif()
