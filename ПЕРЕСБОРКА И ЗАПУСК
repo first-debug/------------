@@ -1,10 +1,11 @@
 !в msys ucrt64 переходим в папку проекта
-cd "D:/2_sem/курсовая с++"
-cd build
+cd "D:/2_sem/cours_c++"
 !удаляем все детали сборки
-rm -rf *
+rm -rf build
 !делаем сборку заново
-cmake .. -DCMAKE_PREFIX_PATH=/ucrt64
+mkdir build
+cd build
+cmake .. -DCMAKE_PREFIX_PATH="C:/Users/dimov/msys/ucrt64" -G "Ninja"
 cmake --build .
-!запускаем в терминале vs
-.\my_app.exe
+!запускаем
+./MyQtApp.exe
