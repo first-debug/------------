@@ -1,0 +1,10 @@
+!в msys ucrt64 переходим в папку проекта
+cd "D:/2_sem/курсовая с++"
+cd build
+!удаляем все детали сборки
+rm -rf *
+!делаем сборку заново
+cmake .. -DCMAKE_PREFIX_PATH=/ucrt64
+cmake --build .
+!запускаем в терминале vs
+.\my_app.exe

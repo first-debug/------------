@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      {
+        "name": "MinGW",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "C:/Users/dimov/msys/ucrt64/include/qt6/**",
+          "C:/Users/dimov/msys/ucrt64/include/**"
+        ],
+        "compilerPath": "C:/Users/dimov/msys/ucrt64/bin/g++.exe"
+      }
+    ],
+    "version": 4
+  }

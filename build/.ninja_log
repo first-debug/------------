@@ -1,0 +1,8 @@
+# ninja log v6
+8	286	7660087939377753	my_app_autogen/timestamp	b7b69423a9ac046
+8	286	7660087939377753	my_app_autogen/mocs_compilation.cpp	b7b69423a9ac046
+8	286	7660087939377753	D:/2 семестр/курсовая с++/build/my_app_autogen/timestamp	b7b69423a9ac046
+8	286	7660087939377753	D:/2 семестр/курсовая с++/build/my_app_autogen/mocs_compilation.cpp	b7b69423a9ac046
+295	381	7660087940096285	CMakeFiles/my_app.dir/my_app_autogen/mocs_compilation.cpp.obj	d425b19b4965abde
+300	2092	7660087940157627	CMakeFiles/my_app.dir/src/main.cpp.obj	158f7e43b22155e5
+2094	2323	7660087958083788	my_app.exe	c8cbeedd092dde6b

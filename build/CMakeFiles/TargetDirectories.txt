@@ -1,0 +1,5 @@
+D:/2 семестр/курсовая с++/build/CMakeFiles/my_app.dir
+D:/2 семестр/курсовая с++/build/CMakeFiles/edit_cache.dir
+D:/2 семестр/курсовая с++/build/CMakeFiles/rebuild_cache.dir
+D:/2 семестр/курсовая с++/build/CMakeFiles/my_app_autogen_timestamp_deps.dir
+D:/2 семестр/курсовая с++/build/CMakeFiles/my_app_autogen.dir
