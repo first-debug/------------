@@ -170,7 +170,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/Users/dimov/msys/ucrt64/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=C:/Users/dimov/msys/ucrt64/bin/objdump.exe
 
 //No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=C:/Users/dimov/msys/ucrt64
+CMAKE_PREFIX_PATH:UNINITIALIZED=C:/Users/dimov/ucrt64
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=

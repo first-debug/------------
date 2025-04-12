@@ -37,10 +37,15 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>30</y>
-      <width>91</width>
-      <height>31</height>
+      <y>20</y>
+      <width>241</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>здесь будет город</string>
@@ -49,9 +54,9 @@
    <widget class="QPushButton" name="add">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>270</x>
       <y>490</y>
-      <width>311</width>
+      <width>91</width>
       <height>23</height>
      </rect>
     </property>
@@ -83,6 +88,16 @@
     </property>
     <property name="text">
      <string>Прогноз</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="new_town">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>490</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
     </property>
    </widget>
   </widget>

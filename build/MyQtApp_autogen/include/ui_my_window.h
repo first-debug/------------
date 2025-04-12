@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -29,6 +30,7 @@ public:
     QPushButton *add;
     QPushButton *next;
     QLabel *prognoz;
+    QLineEdit *new_town;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -49,16 +51,22 @@ public:
         picture->setGeometry(QRect(50, 170, 311, 291));
         town = new QLabel(centralwidget);
         town->setObjectName("town");
-        town->setGeometry(QRect(50, 30, 91, 31));
+        town->setGeometry(QRect(50, 20, 241, 41));
+        QFont font;
+        font.setPointSize(14);
+        town->setFont(font);
         add = new QPushButton(centralwidget);
         add->setObjectName("add");
-        add->setGeometry(QRect(50, 490, 311, 23));
+        add->setGeometry(QRect(270, 490, 91, 23));
         next = new QPushButton(centralwidget);
         next->setObjectName("next");
         next->setGeometry(QRect(290, 30, 75, 23));
         prognoz = new QLabel(centralwidget);
         prognoz->setObjectName("prognoz");
         prognoz->setGeometry(QRect(50, 70, 311, 71));
+        new_town = new QLineEdit(centralwidget);
+        new_town->setObjectName("new_town");
+        new_town->setGeometry(QRect(50, 490, 211, 20));
         MyWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MyWindow);
         menubar->setObjectName("menubar");
