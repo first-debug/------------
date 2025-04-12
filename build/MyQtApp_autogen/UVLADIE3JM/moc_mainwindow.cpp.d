@@ -194,6 +194,17 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/pthread_signal.h \
   C:/Users/dimov/msys/ucrt64/include/pthread_time.h \
   C:/Users/dimov/msys/ucrt64/include/pthread_unistd.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QFlags \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QIODevice \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QJsonDocument \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QJsonObject \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QList \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QMetaType \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QObject \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QSharedDataPointer \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QString \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QUrl \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/QVariant \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q17memory.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q20functional.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q20iterator.h \
@@ -201,6 +212,7 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q20type_traits.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q20utility.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q23utility.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/q26numeric.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qalgorithms.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qanystringview.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qarraydata.h \
@@ -215,6 +227,9 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qbytearrayalgorithms.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qbytearraylist.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qbytearrayview.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcalendar.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcborcommon.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcborvalue.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qchar.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcompare.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcompare_impl.h \
@@ -226,8 +241,10 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcontainerinfo.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcontainertools_impl.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcontiguouscache.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qcryptographichash.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qdarwinhelpers.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qdatastream.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qdatetime.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qdebug.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qendian.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qexceptionhandling.h \
@@ -241,12 +258,18 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qglobalstatic.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qhash.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qhashfunctions.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qiodevice.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qiodevicebase.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qiterable.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qiterator.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qjsondocument.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qjsonobject.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qjsonparseerror.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qjsonvalue.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qlatin1stringview.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qline.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qlist.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qlocale.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qlogging.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qmalloc.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qmap.h \
@@ -267,6 +290,7 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qprocessordetection.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qrect.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qrefcount.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qregularexpression.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qscopedpointer.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qscopeguard.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qset.h \
@@ -313,7 +337,9 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qtversionchecks.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qtypeinfo.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qtypes.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qurl.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qutf8stringview.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/quuid.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qvariant.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qvarlengtharray.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtCore/qversiontagging.h \
@@ -345,6 +371,27 @@ D:/2_sem/cours_c++/build/MyQtApp_autogen/UVLADIE3JM/moc_mainwindow.cpp: D:/2_sem
   C:/Users/dimov/msys/ucrt64/include/qt6/QtGui/qtransform.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtGui/qwindowdefs.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtGui/qwindowdefs_win.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/QNetworkAccessManager \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/QNetworkReply \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/QNetworkRequest \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/QSslConfiguration \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/QSslPreSharedKeyAuthenticator \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qabstractsocket.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qhostaddress.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qhttpheaders.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qnetworkaccessmanager.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qnetworkreply.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qnetworkrequest.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qssl.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qsslcertificate.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qsslconfiguration.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qsslerror.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qsslpresharedkeyauthenticator.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qsslsocket.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qtcpsocket.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qtnetwork-config.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qtnetworkexports.h \
+  C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork/qtnetworkglobal.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtWidgets/QMainWindow \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtWidgets/qmainwindow.h \
   C:/Users/dimov/msys/ucrt64/include/qt6/QtWidgets/qsizepolicy.h \
