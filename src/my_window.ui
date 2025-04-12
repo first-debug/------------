@@ -20,7 +20,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="picture">
+   <widget class="QLabel" name="weatherIcon">
     <property name="geometry">
      <rect>
       <x>50</x>

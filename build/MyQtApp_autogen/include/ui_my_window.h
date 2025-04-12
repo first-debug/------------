@@ -25,7 +25,7 @@ class Ui_MyWindow
 {
 public:
     QWidget *centralwidget;
-    QLabel *picture;
+    QLabel *weatherIcon;
     QLabel *town;
     QPushButton *add;
     QPushButton *next;
@@ -46,9 +46,9 @@ public:
         MyWindow->setSizePolicy(sizePolicy);
         centralwidget = new QWidget(MyWindow);
         centralwidget->setObjectName("centralwidget");
-        picture = new QLabel(centralwidget);
-        picture->setObjectName("picture");
-        picture->setGeometry(QRect(50, 170, 311, 291));
+        weatherIcon = new QLabel(centralwidget);
+        weatherIcon->setObjectName("weatherIcon");
+        weatherIcon->setGeometry(QRect(50, 170, 311, 291));
         town = new QLabel(centralwidget);
         town->setObjectName("town");
         town->setGeometry(QRect(50, 20, 241, 41));
@@ -84,7 +84,7 @@ public:
     void retranslateUi(QMainWindow *MyWindow)
     {
         MyWindow->setWindowTitle(QCoreApplication::translate("MyWindow", "MainWindow", nullptr));
-        picture->setText(QCoreApplication::translate("MyWindow", "\320\267\320\264\320\265\321\201\321\214 \320\261\321\203\320\264\320\265\321\202 \320\272\320\260\321\200\321\202\320\270\320\275\320\272\320\260", nullptr));
+        weatherIcon->setText(QCoreApplication::translate("MyWindow", "\320\267\320\264\320\265\321\201\321\214 \320\261\321\203\320\264\320\265\321\202 \320\272\320\260\321\200\321\202\320\270\320\275\320\272\320\260", nullptr));
         town->setText(QCoreApplication::translate("MyWindow", "\320\267\320\264\320\265\321\201\321\214 \320\261\321\203\320\264\320\265\321\202 \320\263\320\276\321\200\320\276\320\264", nullptr));
         add->setText(QCoreApplication::translate("MyWindow", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \320\263\320\276\321\200\320\276\320\264", nullptr));
         next->setText(QCoreApplication::translate("MyWindow", "\321\201\320\273\320\265\320\264\321\203\321\216\321\211\320\270\320\271", nullptr));

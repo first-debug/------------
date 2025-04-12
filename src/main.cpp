@@ -63,17 +63,23 @@ void MainWindow::parseWeatherData(QNetworkReply *reply) {
     QJsonDocument doc = QJsonDocument::fromJson(reply->readAll());
     QJsonObject root = doc.object();
 
-    QJsonArray weatherArray = root["weather"].toArray();
+    // Извлечение данных о погоде
+    QJsonObject weather = root["weather"].toArray().first().toObject();
+    QString description = weather["description"].toString();
+    QString iconCode = weather["icon"].toString();
 
-    QJsonObject weatherObj = weatherArray[0].toObject();
-    QString description = weatherObj["description"].toString();
+    // Извлечение температурных данных
+    QJsonObject main = root["main"].toObject();
+    QString temp = QString::number(main["temp"].toDouble(), 'f', 1);
+    QString feels_like = QString::number(main["feels_like"].toDouble(), 'f', 1);
+    QString humidity = QString::number(main["humidity"].toInt());
 
-    QJsonObject mainObj = root["main"].toObject();
-    double temp = mainObj["temp"].toDouble();
-
-    ui->prognoz->setText(QString("Погода: %1\nТемпература: %2°C")
-                         .arg(description)
-                         .arg(temp));
+    ui->prognoz->setText(QString(
+        "<b>%1</b><br>"
+        "Температура: %2°C<br>"
+        "Ощущается: %3°C<br>"
+        "Влажность: %4%"
+    ).arg(description, temp, feels_like, humidity));
     reply->deleteLater();
 }
 
