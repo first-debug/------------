@@ -14,9 +14,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -31,24 +29,27 @@ public:
     QPushButton *next;
     QLabel *prognoz;
     QLineEdit *new_town;
-    QMenuBar *menubar;
-    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MyWindow)
     {
         if (MyWindow->objectName().isEmpty())
             MyWindow->setObjectName("MyWindow");
-        MyWindow->resize(402, 581);
+        MyWindow->resize(402, 458);
         QSizePolicy sizePolicy(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(MyWindow->sizePolicy().hasHeightForWidth());
         MyWindow->setSizePolicy(sizePolicy);
+        MyWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
+"color: rgb(255, 255, 255);"));
         centralwidget = new QWidget(MyWindow);
         centralwidget->setObjectName("centralwidget");
         weatherIcon = new QLabel(centralwidget);
         weatherIcon->setObjectName("weatherIcon");
-        weatherIcon->setGeometry(QRect(50, 170, 311, 291));
+        weatherIcon->setGeometry(QRect(80, 170, 261, 211));
+        weatherIcon->setStyleSheet(QString::fromUtf8("background: transparent;"));
+        weatherIcon->setScaledContents(true);
+        weatherIcon->setAlignment(Qt::AlignCenter);
         town = new QLabel(centralwidget);
         town->setObjectName("town");
         town->setGeometry(QRect(50, 20, 241, 41));
@@ -57,7 +58,7 @@ public:
         town->setFont(font);
         add = new QPushButton(centralwidget);
         add->setObjectName("add");
-        add->setGeometry(QRect(270, 490, 91, 23));
+        add->setGeometry(QRect(270, 420, 121, 23));
         next = new QPushButton(centralwidget);
         next->setObjectName("next");
         next->setGeometry(QRect(290, 30, 75, 23));
@@ -66,15 +67,8 @@ public:
         prognoz->setGeometry(QRect(50, 70, 311, 71));
         new_town = new QLineEdit(centralwidget);
         new_town->setObjectName("new_town");
-        new_town->setGeometry(QRect(50, 490, 211, 20));
+        new_town->setGeometry(QRect(50, 420, 211, 20));
         MyWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MyWindow);
-        menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 402, 22));
-        MyWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(MyWindow);
-        statusbar->setObjectName("statusbar");
-        MyWindow->setStatusBar(statusbar);
 
         retranslateUi(MyWindow);
 

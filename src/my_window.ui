@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>402</width>
-    <height>581</height>
+    <height>458</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,18 +19,31 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="weatherIcon">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>80</x>
       <y>170</y>
-      <width>311</width>
-      <height>291</height>
+      <width>261</width>
+      <height>211</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
     </property>
     <property name="text">
      <string>здесь будет картинка</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="town">
@@ -55,8 +68,8 @@
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>490</y>
-      <width>91</width>
+      <y>420</y>
+      <width>121</width>
       <height>23</height>
      </rect>
     </property>
@@ -94,24 +107,13 @@
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>490</y>
+      <y>420</y>
       <width>211</width>
       <height>20</height>
      </rect>
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>402</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

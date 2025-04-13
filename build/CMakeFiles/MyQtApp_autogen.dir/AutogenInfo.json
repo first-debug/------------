@@ -441,7 +441,9 @@
 		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
 		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
 		"C:/Users/dimov/msys/ucrt64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake",
-		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake"
+		"C:/Users/dimov/msys/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake",
+		"D:/2_sem/cours_c++/resources.qrc",
+		"D:/2_sem/cours_c++/towns.txt"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/2_sem/cours_c++",
 	"CROSS_CONFIG" : false,
@@ -520,7 +522,7 @@
 	],
 	"MOC_PREDEFS_FILE" : "D:/2_sem/cours_c++/build/MyQtApp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : [ "D:/2_sem/cours_c++/build/qrc_resources.cpp" ],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
 	"PARSE_CACHE_FILE" : "D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp_autogen.dir/ParseCache.txt",
@@ -536,7 +538,7 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : [ "D:/2_sem/cours_c++/build/qrc_resources.cpp" ],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0

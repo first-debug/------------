@@ -1,9 +1,12 @@
 # ninja log v6
-8	838	7662511021406931	MyQtApp_autogen/timestamp	87f8dfcdfcd89acd
-8	838	7662511021406931	MyQtApp_autogen/mocs_compilation.cpp	87f8dfcdfcd89acd
-8	838	7662511021406931	D:/2_sem/cours_c++/build/MyQtApp_autogen/timestamp	87f8dfcdfcd89acd
-8	838	7662511021406931	D:/2_sem/cours_c++/build/MyQtApp_autogen/mocs_compilation.cpp	87f8dfcdfcd89acd
-878	3072	7662511022530413	CMakeFiles/MyQtApp.dir/src/main.cpp.obj	8036023631ff21bb
-873	3302	7662511022498682	CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj	5fcb247022f4a6d8
-882	3504	7662511022577199	CMakeFiles/MyQtApp.dir/src/mainwindow.cpp.obj	9f819b0f3e4791f7
-3504	3692	7662511048800698	MyQtApp.exe	70fad454a37ee9be
+9	5554	7662780013200895	MyQtApp_autogen/timestamp	87f8dfcdfcd89acd
+9	5554	7662780013200895	MyQtApp_autogen/mocs_compilation.cpp	87f8dfcdfcd89acd
+9	5554	7662780013200895	D:/2_sem/cours_c++/build/MyQtApp_autogen/timestamp	87f8dfcdfcd89acd
+9	5554	7662780013200895	D:/2_sem/cours_c++/build/MyQtApp_autogen/mocs_compilation.cpp	87f8dfcdfcd89acd
+5560	5705	7662780015337389	qrc_resources.cpp	7f83566a89a27a98
+5560	5705	7662780015337389	D:/2_sem/cours_c++/build/qrc_resources.cpp	7f83566a89a27a98
+5716	5818	7662780015482423	CMakeFiles/MyQtApp.dir/qrc_resources.cpp.obj	d2a3d9f3f7a7b51a
+5709	8022	7662780015465011	CMakeFiles/MyQtApp.dir/src/main.cpp.obj	8036023631ff21bb
+5705	8300	7662780015417161	CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj	5fcb247022f4a6d8
+5713	8851	7662780015482423	CMakeFiles/MyQtApp.dir/src/mainwindow.cpp.obj	9f819b0f3e4791f7
+8852	9093	7662780046891882	MyQtApp.exe	c71d22c21f416e1b
