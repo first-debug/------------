@@ -20,7 +20,8 @@ qt_standard_project_setup()
 add_executable(${PROJECT_NAME}
     src/main.cpp
     src/mainwindow.h
-    src/my_window.ui  # Добавляем UI-файл напрямую
+    src/my_window.ui
+    src/mainwindow.cpp
 )
 
 # Подключаем Qt модули

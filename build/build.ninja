@@ -64,6 +64,16 @@ build CMakeFiles/MyQtApp.dir/src/main.cpp.obj: CXX_COMPILER__MyQtApp_unscanned_ 
   TARGET_COMPILE_PDB = CMakeFiles\MyQtApp.dir\
   TARGET_PDB = MyQtApp.pdb
 
+build CMakeFiles/MyQtApp.dir/src/mainwindow.cpp.obj: CXX_COMPILER__MyQtApp_unscanned_ D$:/2_sem/cours_c++/src/mainwindow.cpp || cmake_object_order_depends_target_MyQtApp
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\MyQtApp.dir\src\mainwindow.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -ID:/2_sem/cours_c++/build/MyQtApp_autogen/include -isystem C:/Users/dimov/msys/ucrt64/include/qt6/QtCore -isystem C:/Users/dimov/msys/ucrt64/include/qt6 -isystem C:/Users/dimov/msys/ucrt64/share/qt6/mkspecs/win32-g++ -isystem C:/Users/dimov/msys/ucrt64/include/qt6/QtGui -isystem C:/Users/dimov/msys/ucrt64/include/qt6/QtWidgets -isystem C:/Users/dimov/msys/ucrt64/include/qt6/QtNetwork
+  OBJECT_DIR = CMakeFiles\MyQtApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyQtApp.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\MyQtApp.dir\
+  TARGET_PDB = MyQtApp.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MyQtApp
@@ -72,7 +82,7 @@ build CMakeFiles/MyQtApp.dir/src/main.cpp.obj: CXX_COMPILER__MyQtApp_unscanned_ 
 #############################################
 # Link the executable MyQtApp.exe
 
-build MyQtApp.exe: CXX_EXECUTABLE_LINKER__MyQtApp_ CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj CMakeFiles/MyQtApp.dir/src/main.cpp.obj | C$:/Users/dimov/msys/ucrt64/lib/libQt6Widgets.dll.a C$:/Users/dimov/msys/ucrt64/lib/libQt6Network.dll.a C$:/Users/dimov/msys/ucrt64/lib/libQt6Gui.dll.a C$:/Users/dimov/msys/ucrt64/lib/libQt6Core.dll.a || MyQtApp_autogen MyQtApp_autogen_timestamp_deps
+build MyQtApp.exe: CXX_EXECUTABLE_LINKER__MyQtApp_ CMakeFiles/MyQtApp.dir/MyQtApp_autogen/mocs_compilation.cpp.obj CMakeFiles/MyQtApp.dir/src/main.cpp.obj CMakeFiles/MyQtApp.dir/src/mainwindow.cpp.obj | C$:/Users/dimov/msys/ucrt64/lib/libQt6Widgets.dll.a C$:/Users/dimov/msys/ucrt64/lib/libQt6Network.dll.a C$:/Users/dimov/msys/ucrt64/lib/libQt6Gui.dll.a C$:/Users/dimov/msys/ucrt64/lib/libQt6Core.dll.a || MyQtApp_autogen MyQtApp_autogen_timestamp_deps
   LINK_LIBRARIES = C:/Users/dimov/msys/ucrt64/lib/libQt6Widgets.dll.a  C:/Users/dimov/msys/ucrt64/lib/libQt6Network.dll.a  C:/Users/dimov/msys/ucrt64/lib/libQt6Gui.dll.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Users/dimov/msys/ucrt64/lib/libQt6Core.dll.a  -lmpr  -luserenv  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MyQtApp.dir
   POST_BUILD = cd .

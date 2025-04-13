@@ -769,6 +769,7 @@ MyQtApp_autogen/timestamp: \
 	D:/2_sem/cours_c++/build/CMakeFiles/4.0.0/CMakeSystem.cmake \
 	D:/2_sem/cours_c++/build/MyQtApp_autogen/moc_predefs.h \
 	D:/2_sem/cours_c++/src/main.cpp \
+	D:/2_sem/cours_c++/src/mainwindow.cpp \
 	D:/2_sem/cours_c++/src/mainwindow.h \
 	D:/2_sem/cours_c++/src/my_window.ui \
 	C:/Users/dimov/msys/ucrt64/bin/cmake.exe

@@ -531,7 +531,8 @@
 	"SETTINGS_FILE" : "D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/2_sem/cours_c++/src/main.cpp", "MU", null ]
+		[ "D:/2_sem/cours_c++/src/main.cpp", "MU", null ],
+		[ "D:/2_sem/cours_c++/src/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
