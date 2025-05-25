@@ -1,5 +1,0 @@
-D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp.dir
-D:/2_sem/cours_c++/build/CMakeFiles/edit_cache.dir
-D:/2_sem/cours_c++/build/CMakeFiles/rebuild_cache.dir
-D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp_autogen_timestamp_deps.dir
-D:/2_sem/cours_c++/build/CMakeFiles/MyQtApp_autogen.dir
